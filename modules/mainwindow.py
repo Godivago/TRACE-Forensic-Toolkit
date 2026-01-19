@@ -2,8 +2,14 @@ import configparser
 import hashlib
 import os
 import datetime
-import pyewf
-import pytsk3
+try:
+    import pyewf
+except ImportError:
+    pyewf = None
+try:
+    import pytsk3
+except ImportError:
+    pytsk3 = None
 import tempfile
 import gc
 import time

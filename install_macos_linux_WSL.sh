@@ -1,4 +1,5 @@
-#!/bin/bash
+c&d C:\Users\TheCa\Desktop\TRACE-Forensic-Toolkit
+ "C:\Users\TheCa\miniconda3\envs\trace\python.exe" -m pip install --no-cache-dir -r requirements.txt#!/bin/bash
 set -e
 
 # === COLORS ===
